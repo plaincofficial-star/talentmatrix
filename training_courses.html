@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Training Courses</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Kelly
+  * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">TalentMatrix</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>  
+		  <li class="dropdown"><a href="company_main.html"><span>Main Menu</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+             <ul>
+			  <li><a href="company_registration.php">Company Registration</a></li>
+              <li><a href="map_organization.php">Develop Competency Framework</a></li>
+		
+              <li class="dropdown"><a href="#"><span>Competency Assessment</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="assess_yourstaff.php">Assess Your team</a></li>
+                  <li><a href="assess_yourself.php">Assess Yourself</a></li>
+                  <li><a href="#">Search for Trainer</a></li>
+				  <li><a href="#">Organization Dashboard</a></li>
+                </ul>
+              </li>
+			
+			  <li class="dropdown"><a href="#"><span>Result</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+				  <li><a href="assess_result.php">See your assessment result</a></li>
+				  <li><a href="#">See your IDP</a></li>
+				</ul>
+			  </li>
+			  <li><a href="dashboard.html">Dashboard</a></li>
+			  <li><a href="#">Search for Trainer</a></li>
+			</ul>
+		   </li>		  
+          <li><a href="#" class="active">Training Courses</a></li>
+		  <li class="dropdown"><a href="trainer_menu.html"><span>Trainer Menu</span></a>
+			<ul>
+				<li><a href="add_courses.php">Add more courses</a></li>
+				<li><a href="update_idp.php">Update IDP</a></li>
+			</ul>
+		  </li>
+		  <li><a href="about.html">About</a></li> 
+		  <li><a href="contact.html">Contact</a></li>		  
+        </ul>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+	    <a href="login.php" class="log in" title="Log in"><i class="bi bi-person-circle"></i></a>
+        <a href="#" class="facebook" title="facebook"><i class="bi bi-facebook"></i></a>
+        <!-- เพิ่มปุ่มเปลี่ยนภาษา -->
+        <a href="#" class="language-th" title="ภาษาไทย">TH</a>
+        <a href="#" class="language-en" title="English">EN</a>		
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Courses available</h2>
+        <p>Search your courses</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-tpm">TPM</li>
+            <li data-filter=".filter-coaching">Coaching</li>
+            <li data-filter=".filter-saving">Cost saving</li>
+			<li data-filter=".filter-carbon">Carbon Footprint</li>
+			<li data-filter=".filter-improvement">Improvement</li>
+			<li data-filter=".filter-hr">HR</li>
+			<li data-filter=".filter-maintenance">Maintenance</li>
+          </ul><!-- End Portfolio Filters -->
+
+
+		  <!-- all courses start here -->
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-coaching">
+              <img src="assets/training_courses/coaching_1.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Coaching</h4>
+                <p>Are you ready?</p>
+                <a href="assets/training_courses/coaching_1.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-saving">
+              <img src="assets/training_courses/electric.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Electric cost saving</h4>
+                <p>Cost saving</p>
+                <a href="assets/training_courses/electric.png" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-tpm">
+              <img src="assets/training_courses/PL01_ModernTPM.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Modern TPM</h4>
+                <p>Unlock factory potential</p>
+                <a href="assets/training_courses/PL01_ModernTPM.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-carbon">
+              <img src="assets/training_courses/PL02_carbon_and_cost_reduction.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Reduce carbon, cost reduction</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/training_courses/PL02_carbon_and_cost_reduction.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-tpm">
+              <img src="assets/training_courses/PL03_easy_TPM_with_CLAIR.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>CLAIR</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/training_courses/PL03_easy_TPM_with_CLAIR.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-improvement">
+              <img src="assets/training_courses/PL04_Kaizen.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Kaizen</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/training_courses/PL04_Kaizen.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-improvement">
+              <img src="assets/training_courses/PL05_DataDriven.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Data-Driven Excellence</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/training_courses/PL05_DataDriven.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-hr">
+              <img src="assets/training_courses/PL06_CompetencyBased.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Competency</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/training_courses/PL06_CompetencyBased.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-maintenance">
+              <img src="assets/training_courses/PL07_PartPreserve.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Spare part preservation technique</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/training_courses/PL07_PartPreserve.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div>
+		  
+		  <!-- Load more buttion -->
+		  <div class="text-center mt-5">
+			<button id="loadMore" class="btn btn-primary px-4 py-2" style="background-color: var(--accent-color, #0d6efd); border: none; border-radius: 4px; color: #fff; cursor: pointer;">Load More</button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Kelly</strong> <span>All Rights Reserved<br></span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=“https://themewagon.com>ThemeWagon
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+<!-- สำหรับให้ปุ่มกด Load more ทำงาน -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  setTimeout(function () {
+    let itemsPerPage = 6; // จำนวนรูปที่ต้องการแสดงตอนแรก
+    let $gridContainer = $('.isotope-container');
+    
+    if ($gridContainer.length === 0) return;
+
+    // ดึง Isotope instance ที่เทมเพลตมีอยู่แล้ว
+    let iso = $gridContainer.data('isotope');
+    let $items = $gridContainer.find('.portfolio-item');
+
+    // ซ่อนรูปที่เกินจำนวน itemsPerPage ตั้งแต่แรก
+    $items.each(function (index, element) {
+      if (index >= itemsPerPage) {
+        $(element).addClass('d-none-item');
+      }
+    });
+
+    // ถ้า Isotope โหลดอยู่ ให้สั่งจัดเรียงใหม่ทันที
+    if (iso) {
+      iso.arrange();
+    }
+
+    // ฟังก์ชันเมื่อคลิกปุ่ม Load More
+    $('#loadMore').on('click', function () {
+      let hiddenItems = $items.filter('.d-none-item');
+      
+      // แสดงเพิ่มทีละ 6 รูป
+      let nextItems = hiddenItems.slice(0, itemsPerPage);
+      nextItems.removeClass('d-none-item');
+
+      // อัปเดตเลย์เอาต์ของ Isotope ให้รูปใหม่เรียงต่อกันสวยงาม
+      if (iso) {
+        // บอก Isotope ให้รู้จัก element ที่เพิ่งเอา class ซ่อนออก
+        iso.appended(nextItems); 
+        iso.arrange();
+      }
+
+      // ถ้าเปิดครบทุกรูปแล้ว ให้ซ่อนปุ่ม Load More ทิ้ง
+      if ($gridContainer.find('.d-none-item').length === 0) {
+        $('#loadMore').fadeOut();
+      }
+    });
+  }, 500); // หน่วงเวลาเล็กน้อย 0.5 วิ ให้เทมเพลตหลักรันเสร็จก่อน
+});
+</script>
+
+
+</body>
+
+</html>
